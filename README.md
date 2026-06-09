@@ -2,8 +2,11 @@
 These all projects are amazing project
 
 #Question / Problem Statement: Create a console-based Expense Tracker
+
 #program in Python that allows the user to record daily expenses and view
+
 #summaries like total spending. Use only the concepts learned till Chapter 6
+
 #(loops, conditionals, lists, dictionaries, and basic input/output).
 
 #project details 
