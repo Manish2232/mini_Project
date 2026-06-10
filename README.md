@@ -31,7 +31,7 @@ These all projects are amazing project
 # 1 Add Expense
 # 2 View All Expenses
 # 3 View Total Spending
-# 4 xit
+# 4 exit
 
 # Enter your choice (1-4): 1
 
