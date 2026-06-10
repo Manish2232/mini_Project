@@ -1,6 +1,6 @@
 #Expanse tracker Project
 
-expenses = [] # list of all expense
+expenses_list = [] # list of all expense
 print("Welcome to Expense Tracker : My Dear")
 
 while True:
@@ -26,25 +26,25 @@ while True:
             "amount" : amount
         }
 
-        expenses.append(expense)
+        expenses_list.append(expense)
         print("\n Expense is added succesfully")
 
 #2. View All Expenses
     elif(choice == 2):
-        if(len(expenses) == 0):
+        if(len(expenses_list) == 0):
             print("No Expense Added.")
         else:
             print("====Your All Expenses====")
             count = 1
-            for each_Expense in expenses:
+            for each_Expense in expenses_list:
                 print(f"Expense Number {count} -> {each_Expense["date"]}, {each_Expense["description"]}, {each_Expense["amount"]}")
                 count += 1
 
 #3. View Total spending
     elif(choice == 3):
         total = 0
-        for each_Expanse in expenses:
-            total += each_Expanses["amount"]
+        for each_Expense in expenses_list:
+            total += each_Expense["amount"]
 
         print("\n Total Expanse = ", total)
 
